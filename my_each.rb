@@ -4,12 +4,12 @@ def my_each(words)
     counter = 0 
     while counter < words.length 
       yield words[counter]
-      counter += 1 
-  
-  
-  # code here
+      counter += 1
+    end 
+    words
+  end 
 end
-      my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
+   my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
       puts word
     end
 =========================================================================================
