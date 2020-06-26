@@ -1,5 +1,9 @@
-
-def my_each # put argument(s) here
+    words = ['hi', 'hello', 'bye', 'goodbye']
+    counter = 0
+def my_each
+  
+  
+  
   # code here
 end
 
