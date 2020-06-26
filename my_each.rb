@@ -6,7 +6,9 @@ def my_each
   
   # code here
 end
-  
+      my_each(words) do |word|
+      puts word
+    end
 =========================================================================================
 def hello_t(array)
   if block_given?
