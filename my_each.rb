@@ -1,7 +1,9 @@
     words = ['hi', 'hello', 'bye', 'goodbye']
-    counter = 0
-def my_each
-  
+def my_each(words)
+  if block_given?
+    counter = 0 
+    while counter < words.length 
+      yield words[counter]
   
   
   # code here
