@@ -10,5 +10,4 @@ def my_each(words)
   end 
 end
    my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
-      puts word
     end
